@@ -30,8 +30,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # 直接上传根目录的所有文件
-          path: '.docs\indexs'
+          path: ".docs/indexs"
 
       - name: Deploy to GitHub Pages
         id: deployment
