@@ -6,22 +6,11 @@ OpenTab 是一个基于 `Vue 3 + TypeScript + Vite` 开发的浏览器新标签�
 
 ## 截图
 
-<table style="width: 100%; border-collapse: collapse; margin: 20px auto;">
-  <tr>
-    <td style="text-align: center; padding:1px; width: 50%;">
-      <img src="./.docs/cover1.jpg" 
-           alt="主页截图" 
-           style="max-width: 100%; height: auto; border-radius: 8px;" />
-      <p style="color: #ccc; font-size: 14px; margin-top: 5px;">主页</p>
-    </td>
-    <td style="text-align: center; padding: 10px; width: 50%;">
-      <img src="./.docs/cover2.png"
-           alt="快捷圆环截图" 
-           style="max-width: 100%; height: auto; border-radius: 8px;" />
-      <p style="color: #ccc; font-size: 14px; margin-top: 5px;">快捷圆环</p>
-    </td>
-  </tr>
-</table>
+<img src="./.docs/cover1.jpg" alt="screenshot1" style="max-width: 80%; height: auto;">
+
+<br>
+
+<img src="./.docs/cover2.png" alt="screenshot2" style="max-width: 80%; height: auto;">
 
 ## 功能特性
 
