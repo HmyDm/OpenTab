@@ -635,7 +635,11 @@ const sizeLabels: Record<string, string> = {
               class="hover:text-white/60"
               >使用须知</a
             >
-            <a href="https://www.baidu.com" target="_blank" rel="noopener noreferrer" class="hover:text-white/60"
+            <a
+              href="https://gitee.com/onedream10/opentab"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="hover:text-white/60"
               >开源地址</a
             >
           </div>
