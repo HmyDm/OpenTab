@@ -1,18 +1,18 @@
 # OpenTab
 
-<img src="./.docs/cover.png" alt="cover" >
+<img src=".docs/cover.png" alt="cover" >
 
 OpenTab 是一个基于 `Vue 3 + TypeScript + Vite` 开发的浏览器新标签页扩展，面向 Edge/Chrome。项目主打“本地优先”：配置、分类、收藏网站与界面个性化数据均保存在本地，不依赖后端服务。
 
 ## 截图
 
-<img src="https://gitee.com/onedream10/opentab/raw/master/.docs/cover1.jpg" 
+<img src=".docs/cover1.jpg" 
      alt="主界面截图" 
      style="max-width: 350px; height: auto; display: block; margin: 16px auto;">
 
 <br>
 
-<img src="https://gitee.com/onedream10/opentab/raw/master/.docs/cover2.png" 
+<img src=".docs/cover2.png" 
      alt="快捷圆环功能" 
      style="max-width: 350px; height: auto; display: block; margin: 16px auto;">
 
