@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "openTab",
+  "version": "1.0.0",
+  "description": "一个安全，好看的新标签页",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "src/background/tabOpen.ts",
+    "type": "module"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "src/content/radialMenu.ts"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
