@@ -6,11 +6,15 @@ OpenTab 是一个基于 `Vue 3 + TypeScript + Vite` 开发的浏览器新标签�
 
 ## 截图
 
-<img src="https://gitee.com/onedream10/opentab/raw/master/.docs/cover1.jpg" alt="screenshot1" style="max-width: 80%; height: auto;">
+<img src="https://gitee.com/onedream10/opentab/raw/master/.docs/cover1.jpg" 
+     alt="主界面截图" 
+     style="max-width: 350px; height: auto; display: block; margin: 16px auto;">
 
 <br>
 
-<img src="https://gitee.com/onedream10/opentab/raw/master/.docs/cover2.png" alt="screenshot2" style="max-width: 80%; height: auto;">
+<img src="https://gitee.com/onedream10/opentab/raw/master/.docs/cover2.png" 
+     alt="快捷圆环功能" 
+     style="max-width: 350px; height: auto; display: block; margin: 16px auto;">
 
 ## 功能特性
 
