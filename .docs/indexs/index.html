@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenTab - 一个安全又好看的本地标签页</title>
+    <meta name="description" content="OpenTab 是一个基于 Vue 3 开发的本地优先浏览器扩展，支持快捷圆环、个性化壁纸与自定义搜索。">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>OpenTab</h1>
+            <p>一个安全又好看的本地标签页</p>
+            <div class="download-buttons">
+                <a href="#" class="btn">
+                    <img src="images/edge_icon.svg" alt="Edge">
+                    Edge
+                </a>
+                <a href="#" class="btn">
+                    <img src="images/xignyuan.svg" alt="星愿">
+                    星愿
+                </a>
+                <a href="#" class="btn">
+                    <img src="images/crx_icon.svg" alt="CRX">
+                    CRX 离线版
+                </a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="images/background.jpg" alt="Earth Background">
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section class="section" id="features">
+        <div class="section-header">
+            <h2>功能特性</h2>
+            <p>一切为了效率与美感</p>
+        </div>
+
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h3>新标签主页</h3>
+                <p>顶部搜索栏支持 Bing / Google / Baidu 与自定义引擎。收藏网站网格展示，支持分类浏览。</p>
+            </div>
+            <div class="feature-card">
+                <h3>个性化设置</h3>
+                <p>自定义壁纸、图标大小、圆角调节，甚至侧边栏隐藏，一切随你心意。</p>
+            </div>
+            <div class="feature-card">
+                <h3>数据导入导出</h3>
+                <p>一键导出配置文件，跨设备轻松恢复。数据由你掌控。</p>
+            </div>
+        </div>
+
+        <!-- Quick Circle Highlight -->
+        <div class="feature-split">
+            <div class="feature-text">
+                <h2>快捷圆环</h2>
+                <p>任意界面按住“修饰键 + 鼠标左键”呼出快捷圆环。最高支持 8 个常用页面跳转，让效率翻倍。</p>
+                <p style="margin-top: 1rem; color: var(--text-muted);">支持 Ctrl / Alt / Shift 触发键，圆环大小随心调节。</p>
+            </div>
+            <div class="feature-visual">
+                <img src="images/Quick Circle .png" alt="快捷圆环功能演示">
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Section -->
+    <section class="section">
+        <div class="privacy-banner">
+            <h2>本地优先，隐私无忧</h2>
+            <p style="max-width: 800px; margin: 20px auto; color: var(--text-muted);">
+                OpenTab 不依赖远程后端存储用户配置。主要数据保存在浏览器本地，<br>不会上传到任何服务器。但请记得随时备份你的配置文件。
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 OpenTab. 基于 GPL-3.0 许可证开源</p>
+        <p style="margin-top: 10px;"><a href="https://gitee.com/onedream10/opentab" style="color: white; text-decoration: none;">Gitee</a> | <a href="https://github.com/HmyDm/OpenTab" style="color: white; text-decoration: none;">GitHub</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
