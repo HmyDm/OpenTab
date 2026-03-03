@@ -1,13 +1,27 @@
-# OpenTab - 本地化新标签页扩展
+# OpenTab
 
-<img src="./.docs/cover.png" alt="cover">
+<img src="./.docs/cover.png" alt="cover" >
 
 OpenTab 是一个基于 `Vue 3 + TypeScript + Vite` 开发的浏览器新标签页扩展，面向 Edge/Chrome。项目主打“本地优先”：配置、分类、收藏网站与界面个性化数据均保存在本地，不依赖后端服务。
 
 ## 截图
 
-<img src="./.docs/cover1.jpg" alt="screenshot1">
-<img src="./.docs/cover2.png" alt="screenshot2">
+<table style="width: 100%; border-collapse: collapse; margin: 20px auto;">
+  <tr>
+    <td style="text-align: center; padding:1px; width: 50%;">
+      <img src="./.docs/cover1.jpg" 
+           alt="主页截图" 
+           style="max-width: 100%; height: auto; border-radius: 8px;" />
+      <p style="color: #ccc; font-size: 14px; margin-top: 5px;">主页</p>
+    </td>
+    <td style="text-align: center; padding: 10px; width: 50%;">
+      <img src="./.docs/cover2.png"
+           alt="快捷圆环截图" 
+           style="max-width: 100%; height: auto; border-radius: 8px;" />
+      <p style="color: #ccc; font-size: 14px; margin-top: 5px;">快捷圆环</p>
+    </td>
+  </tr>
+</table>
 
 ## 功能特性
 
@@ -113,12 +127,6 @@ openTab/
 - 项目不依赖远程后端存储用户配置。
 - 主要数据保存在浏览器本地（`chrome.storage.local`）。
 - 图片等大对象通过 `IndexedDB` 管理。
-
-## Roadmap
-
-- 支持更多搜索引擎模板与快速导入
-- 增强快捷圆环视觉主题配置
-- 增加网站批量管理能力
 
 ## 贡献指南
 
