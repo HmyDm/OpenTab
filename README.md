@@ -1,8 +1,6 @@
 # OpenTab
 
 <img src=".docs/cover.png" alt="cover">
-<br>
-<br>
 
 [中文版](.docs/README_zh.md) 
 
