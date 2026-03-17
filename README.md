@@ -2,7 +2,8 @@
 
 <img src=".docs/cover.png" alt="cover">
 
-[中文版](.docs/README_zh.md) 
+[官网](https://hmydm.github.io/OpenTab/) | [中文版](.docs/README_zh.md) |
+[Edge一键安装](https://microsoftedge.microsoft.com/addons/detail/opentab/ilpmjmiedbkghglenmjkonmiaeeielnd?hl=zh-CN)
 
 OpenTab is a browser new tab page extension built with **Vue 3 + TypeScript + Vite**, designed for Edge and Chrome. The project emphasizes a **"local-first" approach**: all configurations, bookmarks, website categories, and UI customizations are stored locally without relying on backend services.
 
@@ -108,21 +109,6 @@ npm run build
 
 The build output will be in the `dist/` directory.
 
-### Load in Edge
-
-1. Navigate to `edge://extensions/`
-2. Enable **Developer mode** (toggle in top right)
-3. Click **Load unpacked**
-4. Select the `dist` directory from your project folder
-
-### Load in Chrome
-
-1. Navigate to `chrome://extensions/`
-2. Enable **Developer mode** (toggle in top right)
-3. Click **Load unpacked**
-4. Select the `dist` directory from your project folder
-
-> **Note**: Chrome Web Store publication is planned for the future. The extension is compatible with all Chromium-based browsers.
 
 ## Building for Production
 

@@ -87,29 +87,7 @@ pnpm dev 或者 npm run dev
 pnpm build
 ```
 
-然后加载 `dist` 目录：
-
-### Edge
-
-1. 打开 `edge://extensions/`
-2. 开启“开发人员模式”
-3. 点击“加载解压缩的扩展”
-4. 选择项目的 `dist` 目录
-
-### Chrome（未来会考虑上架）
-
-1. 打开 `chrome://extensions/`
-2. 开启“开发者模式”
-3. 点击“加载已解压的扩展程序”
-4. 选择项目的 `dist` 目录
-
-## 打包发布
-
-```bash
-pnpm build
-```
-
-构建产物位于 `dist/`。
+然后加载 `dist` 目录
 
 ## 问题
 
